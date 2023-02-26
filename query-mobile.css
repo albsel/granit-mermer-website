@@ -7,6 +7,10 @@
     padding: 0 1.8rem;
   }
 
+  .logo-box {
+    margin-left: 90px;
+  }
+
   .logo-name {
     font-size: 1rem;
     font-weight: 500;
@@ -79,8 +83,9 @@
   }
 
   .slider-title {
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 600;
+    letter-spacing: 12px;
   }
 
   .testimonial {
