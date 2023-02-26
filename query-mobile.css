@@ -1,0 +1,167 @@
+@media only screen and (max-width: 767px) {
+  header {
+    background-position: center;
+    margin-bottom: 3.4rem;
+  }
+  .header {
+    padding: 0 1.8rem;
+  }
+
+  .logo-name {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .logo-description {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+
+  .container {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 22px;
+    line-height: 1.05;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /*********************************************************************************************************/
+  /* GALLERY SECTION  */
+  /*********************************************************************************************************/
+  .section-gallery {
+    /* background-color: #ece1d3; */
+  }
+
+  .gallery-box {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3.4rem;
+  }
+
+  .gallery-title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .mobile-unactive {
+    display: none;
+  }
+
+  /*********************************************************************************************************/
+  /* SLIDER SECTION */
+  /*********************************************************************************************************/
+  .slider {
+    max-width: 21rem;
+    height: 16rem;
+  }
+
+  .slider-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .testimonial {
+    max-width: 40rem;
+    margin-top: -53px;
+  }
+
+  .testimonial::before {
+    top: -3rem;
+    left: 1rem;
+    font-size: 5rem;
+  }
+
+  .testimonial__header {
+    margin-left: 60px;
+    font-size: 1rem;
+  }
+
+  .shkalle img {
+    height: 150px;
+  }
+
+  .slider__btn {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+  }
+
+  .slider__btn--left {
+    left: 5%;
+  }
+
+  .slider__btn--right {
+    right: 5%;
+  }
+
+  .dots__dot {
+    height: 0.6rem;
+    width: 0.6rem;
+  }
+
+  /*********************************************************************************************************/
+  /* FOOTER SECTION */
+  /*********************************************************************************************************/
+
+  .footer-col {
+    grid-template-columns: 1fr;
+    width: 200px;
+    margin-left: 110px;
+  }
+
+  .logo-name {
+    font-size: 1.5rem;
+  }
+
+  .logo-description {
+    font-size: 1.2rem;
+    margin-left: 28px;
+  }
+
+  .logo-title {
+    width: 200px;
+    margin-left: -32px;
+  }
+
+  .logo-name {
+    margin-left: 27px;
+  }
+
+  .footer-heading {
+    margin-left: 25px;
+    font-size: 25px;
+  }
+
+  .address-col {
+    margin-left: -48px;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    margin-left: -12px;
+    font-size: 22px;
+  }
+}

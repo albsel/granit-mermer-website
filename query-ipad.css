@@ -1,0 +1,138 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-position: center;
+  }
+  .header {
+    padding: 1.6rem 2.8rem;
+  }
+
+  .logo-name {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .logo-description {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .main-nav-list {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-item {
+    list-style: none;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1.2rem;
+    letter-spacing: 4;
+  }
+
+  .container {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 22px;
+    line-height: 1.05;
+  }
+
+  p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  /*********************************************************************************************************/
+  /* GALLERY SECTION  */
+  /*********************************************************************************************************/
+  .section-gallery {
+    /* background-color: #ece1d3; */
+  }
+
+  .gallery-box {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 3.4rem;
+  }
+
+  .gallery-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+    padding: 1.5rem;
+  }
+
+  .mobile-unactive {
+    display: none;
+  }
+
+  .ipad-unactive {
+    display: none;
+  }
+
+  /*********************************************************************************************************/
+  /* SLIDER SECTION */
+  /*********************************************************************************************************/
+  .slider {
+    max-width: 45rem;
+    height: 22rem;
+  }
+
+  .slider-title {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+
+  .testimonial {
+    max-width: 40rem;
+    margin-top: -53px;
+  }
+
+  .testimonial::before {
+    top: -3rem;
+    left: 1rem;
+    font-size: 10rem;
+  }
+
+  .testimonial__header {
+    margin-left: 50px;
+  }
+
+  .shkalle img {
+    height: 200px;
+  }
+
+  /* Footer  */
+  .footer-col {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+  }
+
+  .logo-title {
+    margin-top: 25px;
+  }
+
+  .footer-logo {
+    margin-left: 40px;
+  }
+  .footer-link {
+    font-size: 25px;
+  }
+
+  .copyright {
+    margin-left: 30px;
+    margin-top: -140px;
+  }
+}

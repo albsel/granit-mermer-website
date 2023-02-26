@@ -15,7 +15,7 @@ header {
     ),
     url(img/granit-background.jpg);
   /* background-image: url(img/gallery/gallery-4.jpg); */
-  background-size: cover;
+
   position: relative;
   margin-bottom: 9.4rem;
 }
@@ -29,6 +29,7 @@ header {
   gap: 1rem;
   align-items: center;
 }
+
 .logo-icon {
   height: 2.5rem;
 }
@@ -295,7 +296,6 @@ p {
   /* background-color: #888; */
   opacity: 1;
 }
-
 /*********************************************************************************************************/
 /* FOOTER SECTION */
 /*********************************************************************************************************/
@@ -305,22 +305,16 @@ p {
 }
 
 .footer-col {
-  width: 1200px;
+  width: 1000px;
   display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 2rem;
   margin: auto;
 }
 
-.footer-logo-row {
+.footer-logo {
   display: block;
   padding: 1.2rem;
-}
-
-.logo-box {
-  display: flex;
-  justify-items: center;
-  gap: 0.5rem;
 }
 
 .logo {
@@ -329,67 +323,42 @@ p {
 }
 
 .logo-name {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .logo-description {
-  font-size: 1.2rem;
-}
-
-.social-links {
-  display: flex;
-  list-style: none;
-  gap: 5.5rem;
-  margin-bottom: 4rem;
-  align-items: center;
-}
-
-.social-icon {
-  font-size: 1.5rem;
-  height: 3.5rem;
+  font-size: 1.3rem;
+  margin-left: -1px;
 }
 
 .footer-link {
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #fff;
 }
 
 .copyright {
   font-size: 1.2rem;
-  margin-top: 3.5rem;
+  margin-top: -130px;
+  margin-left: 15px;
 }
 
 .address-col {
   padding: 1.2rem;
+  text-decoration: none;
 }
 
 .footer-heading {
   margin-bottom: 2.4rem;
-}
-
-.address {
-  margin-bottom: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .nav-col {
   padding: 1.2rem;
 }
 
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 2.2rem;
-  list-style: none;
-  margin-left: -40px;
-}
-
 .footer-link {
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-.footer-heading-company {
-  margin-bottom: 40px;
 }
 
 .shkalle {
